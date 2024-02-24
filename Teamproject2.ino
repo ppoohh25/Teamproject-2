@@ -6,15 +6,15 @@ char n[50];
 char l[50];
 JsonDocument doc;
 // WiFi
-const char *ssid = "Suwan 19463"; // Enter your WiFi name
-const char *password = "Suda*54321";  // Enter WiFi password
+const char *ssid =  // Enter your WiFi name;
+const char *password = // Enter WiFi password;  
 
 // MQTT Broker
-const char *mqtt_broker = "iiot.dynu.com";
-const char *topic = "65011070/test";
-const char *mqtt_username = "mosquitto";
-const char *mqtt_password = "teamproject";
-const int mqtt_port = 6688;
+const char *mqtt_broker = //"MQTT Broker";
+const char *topic = //"Your topic";
+const char *mqtt_username = //"username";
+const char *mqtt_password = //"Password";
+const int mqtt_port = //port;
 
 WiFiClient espClient;
 PubSubClient client(espClient);
